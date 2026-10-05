@@ -1,8 +1,8 @@
-# Exclude model weights and serialized output objects
+# Exclude model weights and serialized objects
 outputs/models/
 outputs/*.rds
 
-# Exclude raw dataset files, excel sheets, and database files
+# Ignore all raw data files in data/
 data/*.csv
 data/*.xls
 data/*.xlsx
@@ -10,7 +10,11 @@ data/*.db
 data/*.rds
 *.sqlite
 
-# Exclude temp files and IDE files
+# Allow specific output summary CSVs
+!outputs/business_kpis.csv
+!outputs/insights_master.csv
+
+# Exclude temporary and IDE files
 .gitignore~
 .vscode/
 .Rhistory
