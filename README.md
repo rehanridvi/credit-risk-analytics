@@ -64,7 +64,7 @@ Five-tab Shiny app: Portfolio Overview, Risk Analysis, Segment Explorer, Credit 
 
 Example — high income + 3 sub-severe late events → **Very High Risk (15.6% PD)**. The model correctly weights delinquency chronicity over income, matching the "voluntary delinquency" pattern in consumer credit.
 
-Live: **[demo.gif.mp4]**
+Live: (demo.gif.mp4)
 
 ---
 
