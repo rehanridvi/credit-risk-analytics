@@ -1,4 +1,3 @@
-outputs/
 data/*.db
 data/*.rds
 *.sqlite
