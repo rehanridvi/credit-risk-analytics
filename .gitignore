@@ -1,14 +1,14 @@
-# Exclude model weights and large outputs
+# Exclude bulky trained model binaries, checkpoints, and serialized objects
 outputs/models/
 outputs/*.rds
 
-# Exclude raw data files and databases
+# Exclude raw data files, databases, and large dataset CSVs
 data/*.csv
 data/*.db
 data/*.rds
 *.sqlite
 
-# Exclude IDE and environment files
+# Exclude local editor configurations, IDE files, and R workspace sessions
 .vscode/
 .Rhistory
 .RData
