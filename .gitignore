@@ -1,6 +1,14 @@
+# Exclude model weights and large outputs
+outputs/models/
+outputs/*.rds
+
+# Exclude raw data files and databases
+data/*.csv
 data/*.db
 data/*.rds
 *.sqlite
+
+# Exclude IDE and environment files
 .vscode/
 .Rhistory
 .RData
