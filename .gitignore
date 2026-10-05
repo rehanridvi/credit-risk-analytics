@@ -1,0 +1,7 @@
+outputs/
+data/*.db
+data/*.rds
+*.sqlite
+.vscode/
+.Rhistory
+.RData
